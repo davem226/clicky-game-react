@@ -1,102 +1,102 @@
 [
     {
         "id": 1,
-        "species": "",
-        "image": ""
+        "species": "American Redstart",
+        "image": "https://download.ams.birds.cornell.edu/api/v1/asset/29935651/medium"
     },
     {
         "id": 2,
-        "species": "",
-        "image": ""
+        "species": "Magnolia Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/CC1-0RN9hOXvI_wORFd_tmb6zdZszqGZKKAF_BJVSeI/mtime:1422549611/sites/default/files/Magnolia_Warbler_m50-1-238_l_1.jpg"
     },
     {
         "id": 3,
-        "species": "",
-        "image": ""
+        "species": "Canada Warbler",
+        "image": "https://d1ia71hq4oe7pn.cloudfront.net/photo/64913351-480px.jpg"
     },
     {
         "id": 4,
-        "species": "",
-        "image": ""
+        "species": "Cape May Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/CVY1kwMFCETJnZK2Vrt-KSCQdXe085Gjdhtt5E0VDns/mtime:1422549634/sites/default/files/Cape_May_Warbler_c27-7-185_l_1.jpg"
     },
     {
         "id": 5,
-        "species": "",
-        "image": ""
+        "species": "Bay-breasted Warbler",
+        "image": "http://www.birdsandblooms.com/wp-content/uploads/2016/10/Bay-breasted-Warbler.jpg"
     },
     {
         "id": 6,
-        "species": "",
-        "image": ""
+        "species": "Pine Warbler",
+        "image": "https://download.ams.birds.cornell.edu/api/v1/asset/24915291/medium"
     },
     {
         "id": 7,
-        "species": "",
-        "image": ""
+        "species": "Blackpoll Warbler",
+        "image": "http://www.birdsandblooms.com/wp-content/uploads/2016/10/Blackpoll-Warbler-Fall.jpg"
     },
     {
         "id": 8,
-        "species": "",
-        "image": ""
+        "species": "Black-throated Blue Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/lV5OGo1Kxo0GEB3lMYZg4xP0pgrBx4ykdFeJIiLpjCU/mtime:1422549582/sites/default/files/Black-throated_Blue-Warbler_b40-12-014_l.jpg"
     },
     {
         "id": 9,
-        "species": "",
-        "image": ""
+        "species": "Black-throated Green Warbler",
+        "image": "https://4.bp.blogspot.com/-Iz6eID-Lmz4/V-BCLkeM0KI/AAAAAAAACc0/__czXyRxsE8Nkj-kuLozceKAiJVo1pskgCLcB/s1600/101.jpg"
     },
     {
         "id": 10,
-        "species": "",
-        "image": ""
+        "species": "Black-and-white Warbler",
+        "image": "http://www.lloydspitalnikphotos.com/d/17559-3/black-and-white_warbler_R2D6894-2.jpg"
     },
     {
         "id": 11,
-        "species": "",
-        "image": ""
+        "species": "Blackburnian Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/6G2bwUhbBJomeHxtCAGYeJbZFdHoCxN6xCod6Si9veM/mtime:1422549600/sites/default/files/Blackburnian_Warbler_b13-40-084_l_1.jpg"
     },
     {
         "id": 12,
-        "species": "",
-        "image": ""
+        "species": "Blue-winged Warbler",
+        "image": "http://www.birdsinfocus.com/galleries/bob_gress/Blue-winged_Warbler_female_Bob_Gress_060418_9461_High_Island.jpg"
     },
     {
         "id": 13,
-        "species": "",
-        "image": ""
+        "species": "Golden-winged Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/e8dqExqsFO2SkLgJOt2zAL1MY9Fh8WCcX5MO7Jo1OQc/mtime:1422549682/sites/default/files/Golden-winged_Warbler_s52-13-207_l_1.jpg"
     },
     {
         "id": 14,
-        "species": "",
-        "image": ""
+        "species": "Cerulean Warbler",
+        "image": "https://cdn.audubon.org/cdn/farfuture/fRqQndW1AnfJgZWmrBJtaPoa6YeLJCVd6EpOIKl6Z9s/mtime:1422549586/sites/default/files/Cerulean_Warbler_b57-5-076_l.jpg"
     },
     {
         "id": 15,
-        "species": "",
-        "image": ""
+        "species": "Chestnut-sided Warbler",
+        "image": "https://abcbirds.org/wp-content/uploads/2017/04/Chestnut-sided-Warbler_fall_juv-plumage_Frode-Jacobsen.jpg"
     },
     {
         "id": 16,
-        "species": "",
-        "image": ""
+        "species": "Common Yellowthroat",
+        "image": "https://cdn.audubon.org/cdn/farfuture/dvXJD7Wx8ig9FhoEaabvsJKjkyp7cW1tSIM5IQugTUE/mtime:1422549643/sites/default/files/Common_Yellowthroat_b13-40-165_l_1.jpg"
     },
     {
         "id": 17,
-        "species": "",
-        "image": ""
+        "species": "Kirtland's Warbler",
+        "image": "http://www.annarbor.com/assets_c/2012/10/kirt4-thumb-546x438-124730.jpg"
     },
     {
         "id": 18,
-        "species": "",
-        "image": ""
+        "species": "Wilson's Warbler",
+        "image": "http://www.alanmurphyphotography.com/K55/Wilson's-Warbler-7.jpg"
     },
     {
         "id": 19,
-        "species": "",
-        "image": ""
+        "species": "Nashville Warbler",
+        "image": "http://www.lloydspitalnikphotos.com/d/3120-4/nashville_warbler_F5R4200.jpg"
     },
     {
         "id": 20,
-        "species": "",
-        "image": ""
+        "species": "Orange-crowned Warbler",
+        "image": "https://d1ia71hq4oe7pn.cloudfront.net/photo/64441211-480px.jpg"
     }
 ]

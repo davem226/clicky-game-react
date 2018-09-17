@@ -17,12 +17,12 @@ export default class App extends Component {
 
   componentDidMount() {
     this.setState({
-      birds: this.randomizeOrder(this.state.birds)
+      birds: this.randomizeOrder(this.state.birds),
     });
   };
 
   processClick = (id) => {
-    const selectedBird = this.state.birds.filter(bird => bird.id === id);
+    const selectedBird = this.state.birds.filter(bird => bird.id === id)[0];
     if (this.state.clickedBirds.includes(selectedBird)) {
       this.setState({
         score: 0,
@@ -32,31 +32,27 @@ export default class App extends Component {
       });
     }
     else {
+      this.state.clickedBirds.push(selectedBird);
+      if (this.state.score >= this.state.topScore || this.state.topScore === "N/A") {
+        this.setState({ topScore: this.state.score +1});
+      }
       this.setState({
-        score: this.state.score++,
+        score: this.state.score + 1,
         info: "You Guessed Correctly!",
         birds: this.randomizeOrder(this.state.birds),
-        clickedBirds: this.state.clickedBirds.push(selectedBird)
+        clickedBirds: this.state.clickedBirds,
       });
-      if (this.state.score > this.state.topScore || this.state.topScore === "N/A") {
-        this.updateTopScore();
-      }
     }
-  };
-
-  updateTopScore = () => {
-    this.setState({ topScore: this.state.score });
   };
 
   randomizeOrder = array => {
     const randomArray = [];
-    const dummyArr = array
     const l = array.length;
     while (randomArray.length < l-1) {
-      const n = Math.floor(Math.random() * dummyArr.length);
-      randomArray.push(dummyArr.splice(n,1));
+      const n = Math.floor(Math.random() * array.length);
+      randomArray.push(array.splice(n,1)[0]);
     }
-    randomArray.push(dummyArr[0]);
+    randomArray.push(array[0]);
     return randomArray;
   };
 

@@ -10,7 +10,7 @@ export default class App extends Component {
   state = {
     score: 0,
     topScore: "N/A",
-    info: "Click an Image to Begin!",
+    info: "Click a Warbler to Begin!",
     birds: birds,
     clickedBirds: []
   };
@@ -34,7 +34,7 @@ export default class App extends Component {
     else {
       this.state.clickedBirds.push(selectedBird);
       if (this.state.score >= this.state.topScore || this.state.topScore === "N/A") {
-        this.setState({ topScore: this.state.score +1});
+        this.setState({ topScore: this.state.score + 1 });
       }
       this.setState({
         score: this.state.score + 1,
@@ -48,9 +48,9 @@ export default class App extends Component {
   randomizeOrder = array => {
     const randomArray = [];
     const l = array.length;
-    while (randomArray.length < l-1) {
+    while (randomArray.length < l - 1) {
       const n = Math.floor(Math.random() * array.length);
-      randomArray.push(array.splice(n,1)[0]);
+      randomArray.push(array.splice(n, 1)[0]);
     }
     randomArray.push(array[0]);
     return randomArray;
@@ -67,7 +67,7 @@ export default class App extends Component {
         />
         <Instructions
           title="Clicky Game!"
-          text="Click on an image to earn points, but don't click on any more than once!"
+          text="Click a warbler to earn points, but don't click any more than once!"
         />
         {this.state.birds.map(bird => (
           <Image

@@ -4,7 +4,7 @@ import "./Image.css";
 const Image = props => {
     return (
         <div className="image">
-            <img
+            <img className="bird-img"
                 alt={props.species}
                 src={props.image}
                 onClick={() => {

@@ -7,17 +7,17 @@
     margin-right: 10px;
     padding: 10px;
   }
-  img {
+  .bird-img {
     position: absolute;
     height: 100%;
     width: 100%;
 
-    box-shadow: 5px 5px 5px lightgray;
+    box-shadow: 2px 2px 2px lightgray;
 
     transition: transform .25s;
   }
   
-  img:hover {
+  .bird-img:hover {
     transform: scale(1.2);
   }
   

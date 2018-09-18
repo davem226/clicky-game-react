@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
+import Container from "./components/Container";
 import Top from "./components/Top";
 import Instructions from "./components/Instructions";
 import Image from "./components/Image";
@@ -69,14 +70,16 @@ export default class App extends Component {
           title="Clicky Game!"
           text="Click a warbler to earn points, but don't click any more than once!"
         />
-        {this.state.birds.map(bird => (
-          <Image
-            processClick={this.processClick}
-            id={bird.id}
-            image={bird.image}
-            species={bird.species}
-          />
-        ))}
+        <Container>
+          {this.state.birds.map(bird => (
+            <Image
+              processClick={this.processClick}
+              id={bird.id}
+              image={bird.image}
+              species={bird.species}
+            />
+          ))}
+        </Container>
       </Wrapper>
     );
   }
